@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="myScript.js"></script>
+    <title>Reto 2</title>
+</head>
+<body>
+    <div id="infoClients">
+        <input type="number" id="idClient" placeholder="id del cliente"><br>
+        <input type="text" id="nameClient" placeholder="nombre del cliente"><br>
+        <input type="text" id="emailClient" placeholder="correo del cliente"><br>
+        <input type="number" id="ageClient" placeholder="Edad del cliente"><br>
+    </div>
+    <div id="clients">
+    </div>
+    <button onclick="getClients()">Leer clientes</button>
+    <button onclick="saveClients()">Guardar cliente</button>
+    <button onclick="updateClients()">Actualizar cliente</button>
+</body>
+</html>
